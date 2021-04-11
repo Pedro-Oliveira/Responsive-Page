@@ -4,7 +4,7 @@ body{
     box-sizing: border-box;
 }
 .headerw{
-    width: 100%;
+    width: 94.1%;
     height: 70px;
     background-color: rgb(27, 21, 102);
     position: relative;
@@ -22,12 +22,29 @@ body{
     top: -40px;
     height: 500px;
     object-fit: cover;
+    z-index: -2;
 }
 .formulario div{
-    width: 500px;
-    margin: 150px;
-    pad: 15px 20px;
+    max-width: 500px;
+    padding: 20px 20px;
     font-size: 13px;
-    background-color: grey;
+    background-color: rgb(27, 21, 102, 0.9);
     color: honeydew;
+    display: flex;
+    position: relative;
+    top: -400px;
+}
+.formu{
+    background-color: grey;
+    color: black;
+    padding: 20px;
+    max-width: 500px;
+    height: 400px;
+    display: inline-block;
+    border: black 1px solid;
+    box-sizing: border-box;
+    margin: 300px;
+}
+.formu input{
+    width: 80%;
 }
