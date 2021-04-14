@@ -16,7 +16,12 @@ body{
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     padding: 0 40px;
 }
-.formulario img{
+.formulario{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.imge{
     width: 100%;
     position: relative;
     top: -40px;
@@ -24,27 +29,39 @@ body{
     object-fit: cover;
     z-index: -2;
 }
-.formulario div{
+.lista{
     max-width: 500px;
     padding: 20px 20px;
+    margin: auto;
     font-size: 13px;
-    background-color: rgb(27, 21, 102, 0.9);
+    background-color: rgb(27, 21, 102, 0.8);
     color: honeydew;
-    display: flex;
+    display: block;
     position: relative;
-    top: -400px;
+    top: -500px;
 }
-.formu{
-    background-color: grey;
-    color: black;
-    padding: 20px;
+.info strong{
+    text-align: center;
+}
+.info{
     max-width: 500px;
-    height: 400px;
-    display: inline-block;
-    border: black 1px solid;
-    box-sizing: border-box;
-    margin: 300px;
+    padding: 20px 20px;
+    margin: auto;
+    font-size: 13px;
+    background-color: rgb(27, 21, 102);
+    color: honeydew;
+    position: relative;
+    top: -450px;
+    display: block;
 }
-.formu input{
-    width: 80%;
+.informativo{
+    background-color: rgb(219, 219, 219);
+    width: calc(100%-40px);
+    padding: 40px;
+    position: relative;
+    top: -375px;
+}
+footer h1 p{
+    font-size: 13px;
+    height: 400px;
 }
