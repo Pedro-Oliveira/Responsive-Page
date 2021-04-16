@@ -2,6 +2,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: whitesmoke;
 }
 .headerw{
     width: 94.1%;
@@ -61,7 +62,22 @@ body{
     position: relative;
     top: -375px;
 }
-footer h1 p{
+.triade{
+    width: 100%;
+    position: relative;
+    top: -150px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.triade div{
+    padding: 0;
+    text-align: center;
     font-size: 13px;
-    height: 400px;
+    width: 340px;
+    margin-bottom: 50px;
+}
+footer{
+    text-align: center;
+    text-decoration: none;
 }
