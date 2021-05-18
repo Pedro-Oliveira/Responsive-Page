@@ -4,68 +4,65 @@ body{
     box-sizing: border-box;
     background-color: whitesmoke;
 }
-.headerw{
-    width: 94.1%;
-    height: 70px;
+.header{
+    width: 100%;
+    height: 85px;
     background-color: rgb(27, 21, 102);
-    position: relative;
-    top: -40px;
     color: honeydew;
+    position: absolute;
 }
-.headerw, div {
+.header > p{
     font-size: 40px;
+    margin: 13px 30px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    padding: 0 40px;
 }
-.formulario{
+.lista{
+    width: 100%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+    background-image: url("../imagens/pexels-luis-gomes-546819.jpg");
+    background-size: contain;
+    height: 600px;
+    padding: 40px;
 }
 .imge{
     width: 100%;
     position: relative;
-    top: -40px;
     height: 500px;
     object-fit: cover;
-    z-index: -2;
 }
-.lista{
+.itens{
     max-width: 500px;
-    padding: 20px 20px;
+    padding: 50px;
     margin: auto;
-    font-size: 13px;
+    font-size: 18px;
     background-color: rgb(27, 21, 102, 0.8);
     color: honeydew;
     display: block;
-    position: relative;
-    top: -500px;
+    
 }
-.info strong{
+.titulo{
     text-align: center;
 }
 .info{
     max-width: 500px;
     padding: 20px 20px;
     margin: auto;
-    font-size: 13px;
+    font-size: 16px;
     background-color: rgb(27, 21, 102);
     color: honeydew;
-    position: relative;
-    top: -450px;
     display: block;
 }
-.informativo{
+.information{
     background-color: rgb(219, 219, 219);
     width: calc(100%-40px);
-    padding: 40px;
-    position: relative;
-    top: -375px;
+    padding: 50px 200px;
+    text-align: justify;
 }
 .triade{
     width: 100%;
     position: relative;
-    top: -150px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -73,9 +70,9 @@ body{
 .triade div{
     padding: 0;
     text-align: center;
-    font-size: 13px;
+    font-size: 18px;
     width: 340px;
-    margin-bottom: 50px;
+    margin: 50px;
 }
 footer{
     text-align: center;
