@@ -85,8 +85,18 @@ footer{
     }
     .background-image{
         display: block;
+        height: auto;
+        min-height: fit-content;
+    }
+    .itens{
+        max-width: 680px;
+    }
+    .info{
+        float: none;
+        display: block;
+        text-align: justify;
     }
     .information{
-        padding: 100px 25px;
+        max-width: 680px;
     }
 }
